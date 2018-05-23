@@ -1,0 +1,19 @@
+# Initial
+
+git clone git@github.com:jessewth/CommandLineNotes.git
+git remote add origin git@github.com:jessewth/CommandLineNotes.git
+git init
+git commit -m "initial commit"
+git push origin master
+
+# Initial gitflow
+git clone git@github.com:jessewth/CommandLineNotes.git
+git flow init -f -d
+
+# Remove origin (or upstream) branch
+git push origin --delete <<branch name>>
+
+# Remove multipal origin branch
+git push origin --delete <<branch name1>> <<branch name2>> <<branch name3>>
+
+
